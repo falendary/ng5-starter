@@ -1,0 +1,32 @@
+/* BEGIN Light */
+@font-face {
+  font-family: 'Open Sans';
+  src:  url("/fonts/Light/OpenSans-Light.woff2?v=1.1.0") format("woff2"), url("/fonts/Light/OpenSans-Light.woff?v=1.1.0") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+/* END Light */
+
+@font-face {
+  font-family: 'Open Sans';
+  src:url("/fonts/Regular/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), url("/fonts/Regular/OpenSans-Regular.woff?v=1.1.0") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+/* END Regular */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/Bold/OpenSans-Bold.woff2') format('woff2'),
+         url('/fonts/Bold/OpenSans-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+} 
+
+  
+@font-face {
+	font-family: 'PTRoubleSans';
+	src: url('/fonts/rouble/PTRoubleSans.woff') format('woff'),
+		url('/fonts/rouble/PTRoubleSans.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

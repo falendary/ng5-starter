@@ -1,0 +1,75 @@
+{
+  "local": {
+    "host": "http://localhost:8000",
+    "robots": "./src/env/dev/robots.txt",
+    "yandex_master": "./src/env/dev/yandex_458bd602f6e4ab7d.html",
+    "client": {
+      "local": "http://10.65.106.40:3005",
+      "remote": "https://devnew.kf.expert",
+      "api": "https://devnew.kf.expert"
+    },
+    "server": {
+      "local": "http://10.65.106.40:3005",
+      "remote": "https://devnew.kf.expert",
+      "api": "https://devnew.kf.expert"
+    }
+  },
+  "local-aot": {
+    "host": "http://localhost:8000",
+    "robots": "./src/env/dev/robots.txt",
+    "yandex_master": "./src/env/dev/yandex_458bd602f6e4ab7d.html",
+    "client": {
+      "api": "https://devnew.kf.expert"
+    },
+    "server": {
+      "api": "https://devnew.kf.expert"
+    }
+  },
+  "dev": {
+    "host": "https://devnew.kf.expert",
+    "robots": "./src/env/dev/robots.txt",
+    "yandex_master": "./src/env/dev/yandex_458bd602f6e4ab7d.html",
+    "client": {
+      "api": "https://devnew.kf.expert"
+    },
+    "server": {
+      "api": "http://apiv2:3000"
+    }
+  },
+  "stage": {
+    "host": "https://stage.kf.expert",
+    "robots": "./src/env/dev/robots.txt",
+    "yandex_master": "./src/env/dev/yandex_458bd602f6e4ab7d.html",
+    "client": {
+      "api": "https://stage.kf.expert"
+    },
+    "server": {
+      "api": "http://apiv2:3000"
+    }
+  },
+  "test": {
+    "host": "https://testnew.kf.expert",
+    "robots": "./src/env/test/robots.txt",
+    "yandex_master": "./src/env/test/yandex_458bd602f6e4ab7d.html",
+    "client": {
+      "api": "https://testnew.kf.expert"
+    },
+    "server": {
+      "api": "http://apiv2:3000"
+    }
+  },
+  "prod": {
+    "host": "https://kf.expert",
+    "host_old": "https://kf.expert",
+    "robots": "./src/env/prod/robots.txt",
+    "yandex_master": "./src/env/prod/yandex_458bd602f6e4ab7d.html",
+    "client": {
+      "api": "https://kf.expert",
+      "api_dev": "https://prodnew.kf.expert",
+      "api_prod": "https://kf.expert"
+    },
+    "server": {
+      "api": "http://apiv2:3000"
+    }
+  }
+}

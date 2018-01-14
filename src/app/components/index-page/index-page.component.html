@@ -1,0 +1,22 @@
+<div class="content">
+
+    <div *ngIf="games">
+        <search-control [items]="games" [placeholder]="'Game'" [(query)]="query"
+                        (queryChange)="updateFilters()"></search-control>
+    </div>
+    <div *ngIf="gamesProjection">
+
+        <div class="flexbox-container">
+            <div class="flexbox-item" *ngFor="let game of gamesProjection">
+                <game-card [game]="game"></game-card>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="spinner-container" *ngIf="!gamesProjection || !gamesProjection.length">
+        <mat-spinner [diameter]="50" [color]="'warn'"></mat-spinner>
+    </div>
+
+</div>
+

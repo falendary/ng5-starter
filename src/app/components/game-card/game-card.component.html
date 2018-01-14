@@ -1,0 +1,14 @@
+<mat-card class="game-card" [routerLink]="['/game', game.id]">
+
+    <div class="game-image">
+        <img src="{{game.thumbnail}}" alt="">
+    </div>
+
+    <div class="game-name">
+        {{game.name}}
+    </div>
+    <div class="game-vendor">
+        by {{game.vendor}}
+    </div>
+
+</mat-card>

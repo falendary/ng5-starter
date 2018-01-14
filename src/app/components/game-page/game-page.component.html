@@ -1,0 +1,30 @@
+<div class="content game-page">
+
+    <div *ngIf="game">
+
+        <div class="game-page-background" [style.backgroundImage]="'url(https:' + game.background + ')'"></div>
+
+        <mat-card class="game-container mat-typography">
+
+            <h1>{{game.name}}</h1>
+
+            <p>{{game.description}}</p>
+
+            <p>
+                Vendor: {{game.vendor}}
+            </p>
+            <p>
+                Created at: {{game.created_at.date | date}}
+            </p>
+
+        </mat-card>
+
+    </div>
+
+
+    <div class="spinner-container" *ngIf="!game">
+        <mat-spinner [diameter]="50" [color]="'warn'"></mat-spinner>
+    </div>
+
+
+</div>

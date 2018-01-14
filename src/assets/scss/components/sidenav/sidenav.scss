@@ -1,0 +1,27 @@
+.sidenav-content {
+  min-width: 260px;
+
+  a {
+    text-decoration: none;
+  }
+
+  h4 {
+    text-align: left;
+    padding-left: 16px;
+    font-size: 20px;
+    padding-top: 16px;
+    margin-bottom: 0;
+  }
+
+  a.mat-list-item.active {
+    font-weight: bold;
+  }
+}
+
+.mat-drawer-container {
+  background: #fff;
+}
+
+.mat-drawer {
+  border-right: 1px solid #f3f3f3;
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+		"moduleResolution": "node",
+    "module": "es2015",
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": false,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+		"lib": [
+			"es2016",
+			"dom"
+		],
+    "types": [
+      "node",
+      "jasmine"
+    ]
+  },
+  "exclude": [
+//    "src/main.browser.aot.ts",
+//    "src/main.server.aot.ts",
+    "src/aot/**/*.ts",
+    "src/**/*.spec.ts",
+    "node_modules",
+    "dist"
+  ]
+}

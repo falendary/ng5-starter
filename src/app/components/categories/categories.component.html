@@ -1,0 +1,16 @@
+<div class="categories-list mat-typography">
+
+    <h4>Categories</h4>
+
+    <mat-list role="list" *ngIf="categories">
+        <mat-list-item role="listitem" *ngFor="let category of categories">
+            <a mat-list-item [routerLink]="['/category', category.slug]" [routerLinkActive]="['active']">{{category.name}}</a>
+        </mat-list-item>
+    </mat-list>
+
+    <div class="spinner-container" *ngIf="!categories">
+        <mat-spinner [diameter]="20" [color]="'warn'"></mat-spinner>
+    </div>
+
+
+</div>

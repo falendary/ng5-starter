@@ -1,0 +1,32 @@
+.game-card {
+  margin: 16px 8px;
+  min-height: 200px;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  .game-image {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .game-name {
+    margin-top: 4px;
+    color: #4c4c4c;
+    margin-bottom: 4px;
+  }
+
+  .game-vendor {
+    font-weight: bold;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .game-card {
+    width: 150px;
+  }
+}
